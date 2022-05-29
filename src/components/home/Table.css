@@ -1,0 +1,50 @@
+
+
+/* table */
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td,
+#customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+    background-color: yellowgreen;
+}
+#customers td:nth-child(3) {
+    text-align: center;
+
+}
+#customers td:nth-child(4) {
+    text-align: center;
+
+}
+
+#customers tr:hover {
+    background-color: #ddd;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+}
+
+.shopslist{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+@media (max-width: 600px) {
+    .shopIDlist{
+        display: none;
+    }
+}

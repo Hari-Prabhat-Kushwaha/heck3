@@ -1,0 +1,115 @@
+
+.form {
+    max-width: 500px;
+    margin-top: 50px !important;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+}
+
+.form h1 {
+    font-weight: 100;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(79, 98, 148);
+}
+
+
+.form p {
+    color: rgb(122, 113, 113);
+    font-size: 15px;
+}
+.formm p {
+    color: rgb(250, 245, 245);
+    font-size: 15px;
+}
+.form p::before {
+    display: inline;
+    content: "";
+}
+
+.form input {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 2px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    outline: none;
+    border: 1px solid rgb(122, 113, 113);
+}
+.formm input{
+    margin-bottom: 0px !important;
+}
+
+.form select {
+    margin-bottom: 10px;
+}
+
+.form label {
+    line-height: 2;
+    text-align: left;
+    display: block;
+    margin-bottom: 13px;
+    margin-top: 20px;
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.form button[type="submit"],
+.form input[type="submit"] {
+    background: blueviolet;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+.form button[type="submit"]:hover,
+.form input[type="submit"]:hover {
+    background: blueviolet;
+    cursor: pointer;
+}
+
+/*  Hide Arrows From Input Number */
+/* Chrome, Safari, Edge, Opera */
+.form-number-mobile::-webkit-outer-spin-button,
+.form-number-mobile::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+.form-number-mobile {
+    -moz-appearance: textfield;
+}
+
+select option:nth-child(2n) {
+    background: goldenrod;
+}
+
+/* style={{ display: 'flex', justifyContent: 'space-between',flexWrap:"wrap" }} */
+.form-dropdown{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.my-3{
+  border-radius: 2rem;
+  max-width: fit-content;
+  align-content: center;
+  justify-content: center;
+  align-self: center;
+}

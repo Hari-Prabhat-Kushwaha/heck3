@@ -1,0 +1,59 @@
+.home {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    min-height: 80vh;
+
+}
+
+.home-p {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(71 57 57 / 71%);
+}
+
+.home-filter {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.homeGrid {
+    display: flex;
+    gap: 30px;
+    min-width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    min-height: 50vh;
+    margin-bottom: 70px;
+    margin-top: 70px;
+    border-radius: 1rem;
+    
+}
+
+.homeGridShops{
+    padding: 10px;
+    width: 250px;
+    font-size: 20px;
+    background: #00f0ff;
+    background-image: linear-gradient( 95.2deg, rgb(253, 68, 1) 26.8%, rgb(30, 253, 1) 64% );
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 1rem;
+}
+.grid-shop-p{
+    padding: 5px;
+    border-radius:5px;
+    text-align: center;
+}
+.border{
+    background-color: blueviolet;
+    color: blueviolet;
+    border: solid black;
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
